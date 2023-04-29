@@ -75,29 +75,6 @@ section#simg1 {
     height: 200px;
 }
 
-section#contact {
-    background-color: var(--cor5);
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-section#contact h3, p {
-color: var(--cor1);
-padding-left: 10px;
-text-align: center;
-}
-
-section#contact li {
-    list-style: none;
-    text-align: center;
-}
-
-section#contact a {
-    color: var(--cor1);
-    padding-left: 10px;
-    text-decoration: none;
-}
-
 section#galery {
     display: grid;
     align-items: center;
@@ -107,18 +84,60 @@ section#galery {
     margin-bottom: 50px;
 }
 
-
-
 section.imgg > img {
- width: 40vw;
- height: 300px;
+    width: 40vw;
+    height: 300px;
+   }
+
+section#contact {
+    background-color: var(--cor5);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+section#contact h3, p {
+color: var(--cor1);
+padding-left: 10px;
+text-align: center;
+}
+
+section#contact ul {
+    margin-left: 32vw;
+}
+
+section#contact li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    list-style: none;
+    text-align: center;
+}
+
+section#contact a {
+    font-size: 1em;
+}
+
+section#contact a:hover {
+    background-color: var(--cor2);
+}
+
+.fa {
+    color: var(--cor4);
+    background-color: var(--cor1);
+    padding: 1em;
+    width: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 500px;
+  
 }
 
 
 footer p {
-    color: var(--cor5);
+    color: var(--cor1);
     text-align: center;
     font-size: 80%;
     padding: 5px;
-    background-color: var(--cor1);
+    border-top: 3px dotted var(--cor1);
+    background-color: var(--cor5);
 }
