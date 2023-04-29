@@ -1,0 +1,5 @@
+--cor1:#F0B2BD
+--cor2:#A36873
+--cor3:#F0EEC9
+--cor4#99D7F0
+--cor5#7195A3
