@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
+
     section.cakes {
         display: inline-block;
     }
@@ -12,23 +13,22 @@
     }
 
     section.samplet {
-        margin: 50px
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     section.samplet p, h2 {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     section#galery {
         grid-template-columns: 30vw 30vw 30vw;
     }
+    
 
     section.imgg > img {
         width: 30vw;
-        height: 300px;
+        height: 400px;
        }
 
-       section#contact ul {
-        margin-left: 43vw;
-    }
 }
